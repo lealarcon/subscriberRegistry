@@ -663,9 +663,9 @@ if [ "x$LIBTOOLIZE" = "x" ] ; then
 		$ECHO "sufficient system access, it may be possible to quell this warning by"
 		$ECHO "running:"
 		$ECHO
-		sudo -V > /dev/null 2>&1
+		 -V > /dev/null 2>&1
 		if [ $? = 0 ] ; then
-		    $ECHO "   sudo ln -s $_glti $_gltidir/libtoolize"
+		    $ECHO "    ln -s $_glti $_gltidir/libtoolize"
 		    $ECHO
 		else
 		    $ECHO "   ln -s $_glti $_gltidir/libtoolize"
